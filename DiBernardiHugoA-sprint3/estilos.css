@@ -1,0 +1,1399 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    background: linear-gradient(45deg, yellow, grey);
+    width:100vw;
+    height:100vw;
+    overflow-x: hidden;
+
+}
+/*------------*/
+#divSonic {
+    width: 200px;
+    height: 110px;
+    position: relative;
+    top: 150px;
+    left: 150px;
+    border-radius: 15px;
+    border:5px solid red;
+}
+
+#divSonic:hover{
+    background-color: bisque;
+}
+.pSonic {
+    font-size: 30px;
+    color: black;
+    text-align:center;
+}
+
+.aSonic {
+    text-decoration: none;
+}
+
+#divSonic:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    background-color: grey;
+
+
+}
+
+
+/*--------------*/
+
+#divImgLogoDelSitio{
+    position:relative;
+    bottom:55px;
+    left:400px;
+}
+
+.imgLogoDelSitio{
+    width:80px;
+    height:80px;
+    position:relative;
+    bottom:100px;
+}
+
+.h1estilos{
+    color: brown;
+    width:290px;
+    left:100px;
+    position:relative;
+    font-size: 46px;
+    bottom:60px;
+}
+
+.h1estilos:hover{
+    color: brown;
+    width:290px;
+    text-decoration: underline;
+}
+
+#divIdLogoSecciones{
+    position:relative;
+    bottom:130px;
+    width:120px;
+
+}
+
+.pIdLogoSecciones{
+    font-size: 25px;
+    font-family: Arial;
+}
+.pIdLogoSecciones:hover{
+    text-decoration: underline;
+    font-size:29px;
+}
+
+.idLogoSecciones{
+width:80px;
+height:80px;
+}
+
+
+#bordedivBuscar{
+    background-color:white;
+    width:160px;
+    height:50px;
+    position:relative;
+    left:1085px;
+    bottom:290px;
+    display:flex;
+    justify-content: flex-end;
+}
+
+#inputBuscar{
+    width:160px;
+    height:45px;
+    position:absolute;
+    background-color:rgb(218, 243, 248);
+    right:1px;
+    border:3px solid black;
+    font-size: 15px;
+}
+
+#imgDivBuscar{
+    width:50px;
+    height:45px;
+    position:absolute;
+    left:105px;
+    top:3px;
+}
+
+
+
+/*---------------*/
+
+#divRegistrarse{
+    background-color: yellow;
+    width:150px;
+    height:45px;
+    position:relative;
+    bottom:270px;
+    left:1085px;
+    border:5px solid black;
+}
+
+#divRegistrarse:hover{
+    cursor:pointer;
+    background-color: grey;    
+}
+
+#pIdRegistrarse{
+    font-size:21px;
+    text-transform: uppercase;
+    position:absolute;
+    top:12px;
+    left:5px;
+
+}
+
+/*---------------*/
+
+#divIniciaSesion{
+    background-color: yellow;
+    width:150px;
+    height:50px;
+    position:relative;
+    bottom:270px;
+    left:1085px;
+    border:5px solid black;
+
+}
+
+#divIniciaSesion:hover{
+    cursor:pointer;
+    background-color: grey;    
+}
+
+#pIdIniciaSesion{
+    font-size:21px;
+    text-transform: uppercase;
+    position:absolute;
+    top:12px;
+    left:4px;
+}
+
+
+
+
+/*------------*/
+
+#flexContainer2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#navFlexContainer2 {
+    background-color: rgb(255,255,255, 0.8);
+    position: relative;
+    width: 99vw;
+    bottom: 200px;
+    height: 80px;
+    display: flex; /* Para que los elementos internos se alineen horizontalmente */
+    justify-content: space-evenly; /* Alinear elementos al principio, al centro y al final */
+}
+
+
+#navFlexContainer2 ul {
+    list-style: none;
+    padding: 25px;
+}
+
+ul a{
+    text-decoration: none;
+}
+
+#navFlexContainer2 ul a{
+    cursor:pointer;
+
+}
+
+
+#idNoticias, #idMasJugados, #idLanzamientos {
+    display: inline;
+    margin:20px;
+    font-size: 25px;
+}
+
+#idNoticias:hover, #idMasJugados:hover, #idLanzamientos:hover {
+    text-decoration: underline;
+}
+
+/*-------------*/
+
+#divImgNoticias1Duty{
+    position:relative;
+    left:5px;
+    bottom:70px;
+    background-color: lightblue;
+    width:400px;
+    height:540px;
+}
+
+#imgNoticias1Duty{
+    width:200px;
+    height:200px;
+    left:40px;
+    margin-left:100px;
+    margin-top:30px;
+
+}
+
+#imgNoticias1Duty:hover{
+    transform: scale(1.3);
+}
+
+#pNoticias1Duty{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left:1px;
+    text-align: center;
+    font-size:23px;
+    margin-top:30px;
+}
+/**/
+
+#imgNoticias1Lord{
+    width:200px;
+    height:200px;
+    margin-left:100px;
+    margin-top:30px;
+}
+
+#imgNoticias1Lord:hover{
+    transform: scale(1.3);
+}
+
+#pNoticias1Lord{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left:1px;
+    text-align: center;
+    font-size:21px;
+}
+
+#divImgNoticias1Lord{
+    position:relative;
+    left:425px;
+    bottom:610px;
+    background-color: lightblue;
+    width:400px;
+    height:540px;
+
+}
+
+#pNoticias1Lord{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left:1px;
+    text-align: center;
+    font-size:21px;
+    margin-top:25px;
+}
+/**/
+
+#divImgNoticias1Dragon{
+    position:relative;
+    left:850px;
+    bottom:1150px;
+    background-color: lightblue;
+    width:400px;
+    height:540px;
+
+}
+
+#imgNoticias1Dragon{
+    width:200px;
+    height:200px;
+    margin-left:100px;
+    margin-top:30px;
+}
+
+#pNoticias1Dragon{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left:1px;
+    text-align: center;
+    font-size:21px;
+    margin-top:30px;
+}
+
+#imgNoticias1Dragon:hover{
+    transform: scale(1.3);
+}
+
+/*-------------------*/
+
+#divImgNoticias2Fifa2024{
+    position:relative;
+    left:425px;
+    bottom:1100px;
+    background-color: lightblue;
+    width:400px;
+    height:540px;
+
+}
+
+#imgNoticias2Fifa2024{
+    width:200px;
+    height:200px;
+    margin-left:100px;
+    margin-top:30px;
+}
+
+#imgNoticias2Fifa2024:hover{
+    transform: scale(1.3);
+}
+
+#pNoticias2Fifa2024{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left:1px;
+    text-align: center;
+    font-size:21px;
+    margin-top:30px;
+}
+
+/*-------*/
+
+#divImgNoticias2JuegosHistoria{
+    position:relative;
+    left:15px;
+    bottom:1640px;
+    background-color: lightblue;
+    width:400px;
+    height:540px;
+
+}
+
+#imgNoticias2JuegosHistoria{
+    width:200px;
+    height:200px;
+    margin-left:100px;
+    margin-top:30px;
+}
+
+#imgNoticias2JuegosHistoria:hover{
+    transform: scale(1.3);
+}
+
+
+#pNoticias2JuegosHistoria{
+    font-size:28px;
+    text-decoration: underline;
+    margin-top:20px;
+}
+
+#p2Noticias2JuegosHistoria{
+    font-size:24px;
+    margin-top:10px;
+
+}
+
+#aNoticias2JuegosHistoria{
+    font-size:20px;
+    position:absolute;
+    top:450px;
+    margin-left:5px;
+}
+
+#aNoticias2JuegosHistoria:hover{
+    font-size:25px;
+
+}
+/*--------------*/
+#rectangulo{
+    width:1250px;
+    height:200px;
+    left:5px;
+    background-color: lightgreen;
+    position:relative;
+    bottom:800px;
+
+}
+/*---------------*/
+    #formContacto{
+        width: 46vw;
+        position: relative;
+        bottom: 1800px; 
+        left: 660px;   
+    }
+
+/*-----------*/
+section{
+    position:relative;
+    bottom:800px;
+}
+
+#thead1JuegosPorConsola th{
+    border:5px solid black;
+}
+
+#thead1JuegosPorConsola th:hover{
+    text-decoration: underline;
+}
+
+#trPosicion th{
+    border:5px solid black;
+
+}
+
+#tableJuegosPorConsola{
+    font-family:Arial;
+    font-size:20px;
+    border:5px solid black;
+    border-collapse: collapse;
+    position:relative;
+    bottom:730px;
+    left:5px;
+}
+
+#tableJuegosPorConsola td{
+    border: 5px solid black;
+    padding:5px;
+
+}
+
+#tableJuegosPorConsola td:hover, th:hover{
+    background-color: rgb(227, 246, 249);
+    font-weight: bold;
+}
+
+/*-----------------*/
+
+#divFooter{
+    background-color: rgba(74, 59, 9, 0.3);
+    position:relative;
+    bottom:1350px;
+    height:60px;
+    display:flex;
+    justify-content: flex-end;
+}
+
+#logoFacebook,#logoInstagram, #logoTwitter{
+    width:50px;
+    height:50px;
+
+}
+
+#logoTwitter{
+    position:absolute;
+    left:1080px;
+    bottom:5px;
+
+}
+#logoInstagram{
+    left:1140px;
+    position:absolute;   
+    bottom:5px;
+
+}
+#logoFacebook{
+    position:absolute;
+    left:1200px;
+    bottom:5px;
+}
+
+#logoFacebook, #logoInstagram, #logoTwitter{
+    cursor:pointer;
+}
+/*---------*/
+
+
+.revisaSuscripcion{
+    font-size:24px;
+    position:relative;
+    top:60px;
+    right:130px;
+    background-color: yellow;
+    border:3px solid black;
+    display: none;
+}
+
+#idSuscribirme{
+    font-size: 25px;
+    position:absolute;
+    right:550px;
+    top:15px;
+}
+
+#idSuscribirme:hover{
+    text-decoration: underline;
+}
+
+#inputSuscribirme{
+    position:absolute;
+    right:340px;
+    height:40px;
+    bottom:7px;
+    width:170px;
+}
+
+#buttonSuscribirme{
+    left:970px;
+    position:absolute;
+    top:10px;
+    font-size:30px;
+}
+
+#pFooterTecnologia, #pFooterVideojuegos, #pFooterOtrasCosas{
+    font-size:25px;
+    cursor:pointer;
+}
+
+#pFooterTecnologia{
+    left:25px;
+    position:absolute;
+    top:15px;
+}
+
+#pFooterVideojuegos{
+    right:950px;
+    position:absolute;
+    top:15px;
+}
+
+#pFooterOtrasCosas{
+    font-size: 25px;
+    position:absolute;
+    right:750px;
+    top:15px;
+}
+
+#pFooterVideojuegos:hover, #pFooterTecnologia:hover, #pFooterOtrasCosas:hover{
+    background-color:grey;
+}
+
+/*-----------------------------*/
+/*-----------------------------*/
+/*-----------------------------*/
+
+
+@media (max-width: 600px) {
+    .pSonic{
+        font-size:25px;
+        width:20vh;
+
+    }
+
+    #rectangulo{
+        width:1250px;
+        height:200px;
+        left:5px;
+        background-color: green;
+        position:relative;
+        bottom:750px;
+    }
+
+    #divSonic{
+        width:23vw;
+        text-align: center;
+        height:100px;
+        position: relative;
+        top: 130px;
+    }
+
+    .pIdLogoSecciones{
+        font-size:23px;
+        width:20vh; 
+    }
+
+    #navFlexContainer2 {
+        position: absolute;
+        width: 97vw;
+        top: 250px;
+        height: 90px;
+        display: flex; /* Para que los elementos internos se alineen horizontalmente */
+        justify-content: space-evenly; /* Alinear elementos al principio, al centro y al final */
+    }    
+    
+    #idMasJugados{
+        margin-bottom:15px;
+    }
+    
+        #divImgLogoDelSitio{
+        position:relative;
+        left:100px;
+    }
+
+    .h1estilos{
+        font-size:36px;
+
+    }
+
+    #bordedivBuscar{
+        background-color:white;
+        width:160px;
+        height:50px;
+        position:relative;
+        left:325px;
+        bottom:300px;
+
+    }
+
+    #divRegistrarse{
+        background-color: yellow;
+        width:150px;
+        height:45px;
+        position:relative;
+        bottom:280px;
+        left:325px;
+        border:5px solid black;
+        right:auto;
+    }
+
+    #divIniciaSesion{
+        background-color: yellow;
+        width:150px;
+        height:45px;
+        position:relative;
+        bottom:280px;
+        left:325px;
+        border:5px solid black;
+        right:auto;
+    
+    }
+
+    #tableJuegosPorConsola{
+        font-family:Arial;
+        font-size:20px;
+        border:5px solid black;
+        border-collapse: collapse;
+        position:relative;
+        bottom:700px;
+        left:5px;
+    }
+
+    #formContacto{
+        position: relative;
+        bottom: 1500px; 
+        left: 10px;   
+        font-size: 25px;
+    }
+
+    #formContacto .textarea{
+        height:90px;
+        width:450px;
+    }
+
+    #divImgNoticias1Duty{
+        position:relative;
+        left:1px;
+        top:100px;
+        background-color: lightblue;
+        width:240px;
+        height:600px;
+    }
+
+    #pNoticias1Duty{
+        font-size:18px;
+        height:100%;
+        width:70%;
+        margin-left:25px;
+        text-align: left;
+    }
+
+    #imgNoticias1Duty{
+        width:140px;
+        height:140px;
+        margin-left:45px;
+        margin-top:30px;
+
+    }
+
+    #divImgNoticias1Lord{
+        position:relative;
+        left:250px;
+        bottom:500px;
+        background-color: lightblue;
+        width:240px;
+        height:600px;
+    }
+
+    #pNoticias1Lord{
+        font-size:18px;
+        text-align: left;
+
+    }
+
+    #divImgNoticias2Fifa2024{
+        position:relative;
+        left:250px;
+        height:650px;
+        background-color: lightblue;
+        width:240px;
+        bottom:950px;
+
+    }
+
+    #imgNoticias2JuegosHistoria,#imgNoticias2Fifa2024{
+        width:140px;
+        height:140px;
+        margin-left:45px;
+        margin-top:30px;
+
+    }
+
+    #divImgNoticias2JuegosHistoria{
+        position:relative;
+        left:5px;
+        bottom:1600px;
+        background-color: lightblue;
+        width:240px;
+        height:650px;
+    
+    }
+
+    #aNoticias2JuegosHistoria{
+        font-size:20px;
+        position:absolute;
+        top:570px;
+        margin-left:5px;
+    }
+
+    #pNoticias2JuegosHistoria{
+        font-size:25px;
+    }
+
+    #divFooter{
+        position:relative;
+        bottom:1450px;
+        height:110px;
+        display:flex;
+        justify-content: flex-end;
+    }
+
+    #imgNoticias1Lord{
+        width:140px;
+        height:140px;
+        margin-left:45px;
+        margin-top:30px;
+    }
+
+    #buttonSuscribirme{
+        right:20px;
+        position:absolute;
+        top:10px;
+        font-size:30px;
+    }
+
+    #inputSuscribirme{
+        position:absolute;
+        right:40px;
+        height:35px;
+        bottom:60px;
+        width:150px;
+        font-size:18px;
+    }
+
+    #idSuscribirme{
+        font-size: 24px;
+        position:absolute;
+        right:210px;
+        top:15px;
+    }
+    #pFooterOtrasCosas{
+        font-size: 24px;
+        position:absolute;
+        right:360px;
+        top:15px;
+    }
+    #pFooterVideojuegos{
+        left:auto;
+        right:225px;
+        position:absolute;
+        top:55px;
+    }
+    #pFooterTecnologia{
+        left:auto;
+        right:380px;
+        position:absolute;
+        top:55px;        
+    }
+
+    #logoTwitter{
+        position:absolute;
+        left:auto;
+        top:55px;
+        right:150px;
+
+    }
+    #logoInstagram{
+        left:auto;
+        position:absolute;   
+        top:55px;
+        right:90px;
+
+    }
+    #logoFacebook{
+        left:auto;
+        position:absolute;   
+        top:55px;
+        right:30px;
+    }
+    #divRevisaSuscripcion{
+        top:51px;
+        position:relative;
+        width:450px;
+        left:90px;
+    }
+
+    .revisaSuscripcion{
+        font-size:22px;
+
+}
+
+}
+
+
+/**/
+/**/
+/**/
+
+
+@media (min-width: 601px) and (max-width: 850px) {
+    #navFlexContainer2 {
+        background-color: rgb(255,255,255, 0.8);
+        position: absolute;
+        width: 99vw;
+        top: 250px;
+        height: 80px;
+        display: flex; /* Para que los elementos internos se alineen horizontalmente */
+        justify-content: space-evenly; /* Alinear elementos al principio, al centro y al final */
+    }
+
+    #rectangulo{
+        width:1250px;
+        height:170px;
+        left:5px;
+        background-color: green;
+        position:relative;
+        bottom:730px;
+    }
+
+    #divSonic{
+        width:29vw;
+        text-align: center;
+        height:100px;
+        position: relative;
+        top: 130px;
+    }
+
+    .pSonic {
+        font-size: 28px;
+        color: black;
+        text-align:center;
+    }
+
+    #formContacto{
+        position: relative;
+        bottom: 1400px; 
+        left: 10px;   
+        font-size: 25px;
+    }
+
+    #tableJuegosPorConsola{
+        font-family:Arial;
+        font-size:20px;
+        border:5px solid black;
+        border-collapse: collapse;
+        position:relative;
+        bottom:670px;
+        left:5px;
+    }
+
+    #divImgNoticias1Duty{
+        position:relative;
+        left:10px;
+        top:100px;
+        background-color: lightblue;
+        width:370px;
+        height:600px;
+    }
+
+    #divImgLogoDelSitio{
+        position:relative;
+        left:250px;
+        right:auto;
+    }
+
+    .h1estilos{
+        font-size:39px;
+
+    }
+
+    #aNoticias2JuegosHistoria{
+        font-size:20px;
+        position:absolute;
+        margin-left:5px;
+        top:480px;
+    }
+
+    #bordedivBuscar{
+        background-color:white;
+        width:160px;
+        height:50px;
+        position:relative;
+        left:440px;
+        bottom:300px;
+    }
+
+    #divRegistrarse{
+        background-color: yellow;
+        width:150px;
+        height:45px;
+        position:relative;
+        bottom:280px;
+        left:440px;
+        border:5px solid black;
+    }
+
+    #divIniciaSesion{
+        background-color: yellow;
+        width:150px;
+        height:45px;
+        position:relative;
+        bottom:280px;
+        left:440px;
+        border:5px solid black;
+    }
+
+    #pNoticias1Duty{
+        font-size:18px;
+        height:100%;
+        width:70%;
+        margin-left:25px;
+        text-align: left;
+    }
+
+    #imgNoticias1Duty{
+        width:140px;
+        height:140px;
+        margin-left:75px;
+        margin-top:30px;
+
+    }
+
+    #divImgNoticias1Lord{
+        position:relative;
+        left:330px;
+        bottom:500px;
+        background-color: lightblue;
+        width:290px;
+        height:600px;
+    }
+
+    #imgNoticias1Lord{
+        width: 140px;
+        height:140px;
+        margin-left:75px;
+        margin-top:30px;
+    }
+
+    #pNoticias1Lord{
+        font-size:18px;
+        text-align: left;
+
+    }
+    
+
+    #divFooter{
+        position:relative;
+        bottom:1350px;
+        height:110px;
+        display:flex;
+        justify-content: flex-end;
+    }
+
+    #buttonSuscribirme{
+        right:20px;
+        position:absolute;
+        top:10px;
+        font-size:30px;
+    }
+
+    #inputSuscribirme{
+        position:absolute;
+        right:100px;
+        height:40px;
+        bottom:60px;
+        width:110px;
+        font-size:18px;
+    }
+    
+    #idSuscribirme{
+        font-size: 24px;
+        position:absolute;
+        right:220px;
+        top:15px;
+    }
+    #pFooterOtrasCosas{
+        font-size: 24px;
+        position:absolute;
+        right:360px;
+        top:15px;
+    }
+    #pFooterVideojuegos{
+        left:auto;
+        right:500px;
+        position:absolute;
+        top:15px;
+    }
+
+    #pFooterTecnologia{
+        left:auto;
+        right:530px;
+        position:absolute;
+        top:55px;
+    }
+    #logoTwitter{
+        position:absolute;
+        left:auto;
+        top:55px;
+        right:150px;
+    }
+
+    #logoInstagram{
+        left:auto;
+        position:absolute;   
+        top:55px;
+        right:90px;
+
+    }
+    #logoFacebook{
+        left:auto;
+        position:absolute;   
+        top:55px;
+        right:30px;
+    }
+
+    #divImgNoticias2Fifa2024{
+        position:relative;
+        left:430px;
+        height:560px;
+        background-color: lightblue;
+        width:330px;
+        bottom:990px;
+
+    }
+
+    #imgNoticias2Fifa2024{
+        width:170px;
+        height:170px;
+        margin-left:75px;
+        margin-top:30px;
+
+    }
+
+    #divImgNoticias2JuegosHistoria{
+        position:relative;
+        left:5px;
+        bottom:1550px;
+        background-color: lightblue;
+        width:360px;
+        height:550px;
+    
+    }
+
+    #imgNoticias2JuegosHistoria{
+        width:190px;
+        height:190px;
+        margin-left:75px;
+        margin-top:30px;
+
+    }
+
+    #divImgNoticias1Lord{
+        position:relative;
+        left:420px;
+        bottom:500px;
+        background-color: lightblue;
+        width:340px;
+        height:600px;
+    }
+
+    #imgNoticias1Lord{
+        width:170px;
+        height:170px;
+        margin-left:75px;
+        margin-top:30px;
+    }
+    
+    #imgNoticias1Duty{
+        width:170px;
+        height:170px;
+        left:40px;
+        margin-left:75px;
+        margin-top:30px;
+
+    }   
+    #divRevisaSuscripcion{
+        top:51px;
+        position:relative;
+        width:450px;
+        left:50px;
+    }
+
+}
+
+
+/**/
+/**/
+/**/
+
+
+@media (min-width: 801px) and (max-width: 851px) {
+    #pFooterTecnologia{
+        left:auto;
+        right:660px;
+        position:absolute;
+        top:15px;
+    }
+    
+    #divFooter{
+        background-color: rgba(74, 59, 9, 0.3);
+        position:relative;
+        bottom:1450px;
+        height:110px;
+        display:flex;
+        justify-content: flex-end;
+    } 
+
+    #bordedivBuscar{
+        background-color:white;
+        width:160px;
+        height:50px;
+        position:relative;
+        left:640px;
+        bottom:250px;
+    
+    }
+
+    #divRegistrarse{
+        background-color: yellow;
+        width:150px;
+        height:45px;
+        position:relative;
+        bottom:240px;
+        left:640px;
+        border:5px solid black;
+    }
+
+    #divIniciaSesion{
+        background-color: yellow;
+        width:150px;
+        height:45px;
+        position:relative;
+        bottom:240px;
+        left:640px;
+        border:5px solid black;
+    }
+
+    #inputSuscribirme{
+        position:absolute;
+        right:100px;
+        height:40px;
+        bottom:60px;
+        width:110px;
+        font-size:18px;
+    }
+    #logoTwitter{
+        position:absolute;
+        left:auto;
+        top:55px;
+        right:150px;
+    }
+
+    #logoInstagram{
+        left:auto;
+        position:absolute;   
+        top:55px;
+        right:90px;
+
+    }
+    #logoFacebook{
+        left:auto;
+        position:absolute;   
+        top:55px;
+        right:30px;
+    }
+    #divRevisaSuscripcion{
+        top:50px;
+        position:relative;
+        width:550px;
+        left:60px;
+    }
+}
+
+
+/**/
+/**/
+/**/
+
+
+@media (min-width: 852px) and (max-width: 1200px) {
+    #divFooter{
+        position:relative;
+        bottom:1750px;
+        height:110px;
+        display:flex;
+        justify-content: flex-end;
+    }
+
+    #buttonSuscribirme{
+        left:230px;
+        position:relative;
+        top:70px;
+        font-size:30px;
+    }
+
+    
+    #bordedivBuscar{
+        background-color:white;
+        width:160px;
+        height:50px;
+        position:relative;
+        left:725px;
+        bottom:250px;
+    
+    }
+
+    #divRegistrarse{
+        background-color: yellow;
+        width:150px;
+        height:45px;
+        position:relative;
+        bottom:200px;
+        left:725px;
+        border:5px solid black;
+    }
+
+    #divIniciaSesion{
+        background-color: yellow;
+        width:150px;
+        height:45px;
+        position:relative;
+        bottom:300px;
+        left:725px;
+        border:5px solid black;
+    }
+
+    #inputSuscribirme{
+        position:absolute;
+        right:100px;
+        height:40px;
+        bottom:60px;
+        width:110px;
+        font-size:18px;
+    }
+    
+    #idSuscribirme{
+        font-size: 24px;
+        position:absolute;
+        right:220px;
+        top:15px;
+    }
+    #pFooterOtrasCosas{
+        font-size: 24px;
+        position:absolute;
+        right:360px;
+        top:15px;
+    }
+    #pFooterVideojuegos{
+        left:auto;
+        right:500px;
+        position:absolute;
+        top:15px;
+    }
+
+    #pFooterTecnologia{
+        left:auto;
+        right:670px;
+        position:absolute;
+        top:15px;
+    }
+    #logoTwitter{
+        position:absolute;
+        left:auto;
+        top:55px;
+        right:150px;
+    }
+
+    #logoInstagram{
+        left:auto;
+        position:absolute;   
+        top:55px;
+        right:90px;
+
+    }
+    #logoFacebook{
+        left:auto;
+        position:absolute;   
+        top:55px;
+        right:30px;
+    }
+    
+    #navFlexContainer2 {
+        background-color: rgb(255,255,255, 0.8);
+        position: absolute;
+        width: 99vw;
+        top: 300px;
+        height: 70px;
+        display: flex; /* Para que los elementos internos se alineen horizontalmente */
+        justify-content: space-evenly; /* Alinear elementos al principio, al centro y al final */
+    
+    }
+
+    #divRevisaSuscripcion{
+        top:12px;
+        position:relative;
+        width:550px;
+        left:60px;
+    }
+
+
+}
+
+@media (min-width: 1201px) {
+    #divFooter{
+        position:relative;
+        bottom:1650px;
+        height:110px;
+        display:flex;
+        justify-content: flex-end;
+    }
+    #logoTwitter{
+        position:absolute;
+        left:auto;
+        top:5px;
+        right:150px;
+    }
+
+    #logoInstagram{
+        left:auto;
+        position:absolute;   
+        top:5px;
+        right:90px;
+
+    }
+    #logoFacebook{
+        left:auto;
+        position:absolute;   
+        top:5px;
+        right:30px;
+    }
+    #buttonSuscribirme{
+        left:-430px;
+        position:relative;
+        top:5px;
+        font-size:30px;
+    }
+    #inputSuscribirme{
+        position:absolute;
+        right:230px;
+        height:40px;
+        bottom:60px;
+        width:160px;
+        font-size:18px;
+    }
+}

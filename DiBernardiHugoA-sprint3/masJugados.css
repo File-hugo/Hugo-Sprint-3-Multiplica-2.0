@@ -1,0 +1,443 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    background: linear-gradient(to bottom, #3498db, #e74c3c);
+    overflow-x: hidden;
+}
+/**/
+
+#divTituloTrailers{
+    position:relative;
+    top:50px;
+    left:550px;
+}
+
+.h2MasJugados{
+    font-size:50px;
+    color:brown;
+    bottom:41.5px;
+    position: relative;
+}
+
+.h2MasJugados:hover{
+    text-decoration: 10px lightblue underline;
+
+}
+
+.segundaParteMasJugados{
+    position:relative;
+    bottom:100px;
+    left:90px;
+    color:rgb(39, 23, 3);
+    font-size:50px;
+}
+
+.segundaParteMasJugados:hover{
+    text-decoration: 10px lightblue underline;
+
+}
+
+/**/
+
+#flexContainer2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#navFlexContainer2 {
+    background-color: rgb(255,255,255, 0.8);
+    position: absolute;
+    width: 100vw;
+    top: 150px;
+    height: 60px;
+    display: flex; /* Para que los elementos internos se alineen horizontalmente */
+    justify-content: space-evenly; /* Alinear elementos al principio, al centro y al final */
+    border-style: none;
+}
+
+#navFlexContainer2 ul {
+    list-style: none;
+    padding: 15px;
+}
+
+ul a{
+    text-decoration: none;
+}
+
+#navFlexContainer2 ul a{
+    /*cursor:pointer;*/
+
+}
+
+#idNoticias, #idMasJugados, #idLanzamientos {
+    display: inline;
+    margin:20px;
+    font-size: 25px;
+}
+/**/
+
+#pVolverIndex {
+    font-size: 30px;
+    left: 81vw;
+    position: relative;
+    border: 5px solid black;
+    display: inline-block;
+    border-radius: 15px;
+    color:brown;
+    font-weight: bold;
+    top:250px;
+
+}
+
+#pVolverIndex:hover{
+    background-color: greenyellow;
+}
+
+/**/
+
+
+#idCard{
+    top:300px;
+    left:20px;
+    font-size:25px;
+    position:absolute;
+    background-color:  grey;
+    border:10px solid black;
+    width: 16rem;
+}
+
+.imgConsolas{
+    width:230px;
+}
+
+.imgConsolas:hover{
+    width:200px;
+    height:200px;
+    margin-left:20px;
+}
+
+.card-text{
+    text-align: center;
+}
+
+/**/
+
+#divTrailerMirageAssasins{
+    position:relative;
+    left:5px;
+    top:150px;
+}
+
+#pTrailerMirageAssasins{
+    font-size:30px;
+    margin-left:45px;
+}
+
+#pEaSportsWrc{    
+    font-size:25px;
+    margin-left:115px;
+}
+
+#pTrailerMirageAssasins:hover,#pEaSportsWrc:hover{
+    text-decoration: underline;
+}
+
+#divTrailerEaSportsWrc{
+    position:relative;
+    left:430px;
+    bottom:230px;
+}
+
+#divTrailerBattlefield3{
+    position:relative;
+    left:850px;
+    bottom:610px;
+}
+/**/
+
+.plataformasComoSteam{
+    display:flex;
+    justify-content:space-around;
+    padding:10px;
+    margin-left:340px;
+    margin-top:20px;
+    list-style: none;
+    background-color: lightblue;
+    border:5px solid black;
+    width:70%;
+}
+
+li{
+    font-family:"Monserrat", sans-serif;
+    font-size:20px;
+
+}
+
+/**/
+
+#joystickGif{
+    width:300px;
+    height:300px;
+    position:relative;
+    left:590px;
+    top:70px;
+    
+}
+
+.d-block{
+    position:relative;
+    left:130px;
+
+}
+/**/
+
+#carouselExampleControls {
+    max-width: 500px; 
+    margin-bottom: 800px; 
+    position: relative;
+    left:440px; 
+    bottom: 400px; 
+    border:5px solid black;
+    padding:15px;
+    background-color: rgb(163, 170, 163);
+}
+ 
+.carousel-inner img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+.carousel-inner img {
+    max-width: 100%; 
+    height: auto;
+}
+
+.carouselPikachu, .carouselAlanWaker, .carouselForzaMotorsport {
+    max-width: 300px;
+    max-height: 400px;   
+    min-width: 0px;
+    min-height: 399px;  
+    margin-left:95px;
+    height: 400px; 
+    width: 300px; 
+    border: 12px solid lightblue; 
+
+}
+
+#asideCarousel{
+    background-color: #f2f2f2; /* Color de fondo del aside */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 2px 2px 5px #888888; /* Sombra */
+}
+
+/**/
+
+#divBtnPikachu{
+    width:410px;
+    bottom:1250px;
+    position:relative;
+}
+
+#divBtnAlanWake{
+    width:410px;
+    bottom:1120px;
+    position:relative;
+
+}
+
+#divBtnAlanWake:hover{
+    /*cursor:pointer;*/
+}
+
+#divBtnForzaMotorSport{
+    width:410px;
+    bottom:1000px;
+    position:relative;
+
+}
+
+#divBtnForzaMotorSport:hover{
+    /*cursor:pointer;*/
+}
+
+#pBtnPikachu,#pBtnAlanWake, #pBtnForzaMotorSport{
+    font-size:22px;
+
+}
+
+#pBtnPikachu:hover,#pBtnAlanWake:hover, #pBtnForzaMotorSport:hover{
+    cursor:pointer;
+}
+
+#pBtnPikachu{
+    position:relative;
+    top:260px;
+}
+/**/
+
+.carouselPikachu,
+.carouselAlanWaker,
+.carouselForzaMotorsport {
+    box-sizing: border-box; /* Evitar que el borde afecte las dimensiones finales */
+}
+
+/**/
+
+.tablaRequisitos {
+    display: none;
+    border-collapse: collapse;
+    left: 450px;
+    top: 2000px;
+    position: absolute;
+    width:50vw;
+}
+
+.tablaRequisitos td {
+    padding: 5px;
+    border: 5px solid black;
+    font-size: 19px;
+}
+
+@media (min-width: 401px) and (max-width: 850px) {
+    #divTituloTrailers{
+        position:relative;
+        top:50px;
+        left:150px;
+    }
+
+    #navFlexContainer2 {
+        background-color: rgb(255,255,255, 0.8);
+        position: absolute;
+        width: 100vw;
+        top: 100px;
+        height: 96px;
+        display: flex; /* Para que los elementos internos se alineen horizontalmente */
+        justify-content: space-evenly; /* Alinear elementos al principio, al centro y al final */
+        border-style: none;
+    }
+
+    #pVolverIndex {
+        font-size: 25px;
+        left: 49vw;
+        position: relative;
+        border: 5px solid black;
+        display: inline-block;
+        border-radius: 15px;
+        color:brown;
+        font-weight: bold;
+        top:250px;
+    }
+    
+    .tablaRequisitos {
+        display: none;
+        border-collapse: collapse;
+        left: 0px;
+        top: 2200px;
+        position: absolute;
+        width:60vw;
+    }
+
+    #idCard{
+        top:300px;
+        left:10px;
+        position:absolute;
+        background-color:  grey;
+        border:10px solid black;
+        width:200px;
+    }
+
+
+    .imgConsolas{
+        margin-left:5px;
+        width:150px;
+        margin:0;
+        padding:0;
+        margin-left:20px;
+
+    }
+
+    .imgConsolas:hover{
+        width:100px;
+        height:100px;
+        margin-left:40px;
+    }
+
+    .card-text{
+        font-size:20px;
+        text-align: center;
+    }
+
+    .card-body{
+        padding:0;
+        margin:0;
+    }
+
+    .plataformasComoSteam{
+        display:flex;
+        justify-content:space-around;
+        padding:10px;
+        margin-left:220px;
+        margin-top:20px;
+        list-style: none;
+        background-color: lightblue;
+        border:5px solid black;
+        width:53%;
+        font-size:20px;
+    }
+
+    #joystickGif{
+        width:250px;
+        height:250px;
+        position:relative;
+        left:380px;
+        top:200px;
+        
+    }
+
+    #divTrailerMirageAssasins{
+        position:relative;
+        left:5px;
+        top:0px;
+    }
+    
+    .trailerMirageAssasins,.trailerEaSportsWrc,.trailerBattlefield3{
+        width:300px;
+        height:300px;
+    }
+
+    #pTrailerMirageAssasins{
+        font-size:25px;
+    }
+
+    #divTrailerEaSportsWrc{
+        position:relative;
+        left:5px;
+        top:20px;
+    }
+
+    #divTrailerBattlefield3{
+        position:relative;
+        left:350px;
+        bottom:500px;
+    }
+    
+    #pEaSportsWrc{    
+        font-size:25px;
+        margin-left:70px;
+    }
+
+    #carouselExampleControls {
+        max-width: 500px; 
+        margin-bottom: 800px; 
+        position: relative;
+        left: 40px; 
+        bottom: 290px; 
+        border:5px solid black;
+        padding:15px;
+        background-color: rgb(163, 170, 163);
+    }
+
+}

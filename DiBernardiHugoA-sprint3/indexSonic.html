@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personajes de Sonic</title>
+    <link rel="stylesheet" href="estilosSonic.css">
+</head>
+<body>
+
+<h1 class="tituloH1">Personajes de Sonic</h1>    
+
+<section>
+    <a href="index.html"><p class="pVolverIndex">Volver al home</p></a>
+</section>
+
+<nav id="navFlexContainer2">
+    <div id="flexContainer2">
+        <ul>
+        <a href="noticias.html"><li id="idNoticias" >Noticias</li></a>
+        <a href="lanzamientos.html"><li id="idLanzamientos">Lanzamientos</li></a>
+        <a id="idMasJugados" href="masJugados.html"><li id="idMasJugados">Juegos más jugados</li></a>
+        </ul>
+    </div>
+</nav>  
+
+
+<a href="https://www.sonicthehedgehog.com/"target="_blank"><img id="idSonicLogo" src="imagenesSonic/sonicLogo.jpg"></a>
+    
+    <p id="pSonic">Sonic</p>
+    <p id="pTails">Tails</p>
+    <p id="pKnuckles">Knuckles</p>
+    <p id="pShadow">Shadow</p>
+    <p id="pAmy">Amy</p>
+
+    <div id="contenedorSonic"></div>
+        <div id="contenedorImagenSonic">
+            <img id="idImagenSonic" src="imagenesSonic/imagenSonic.png" draggable="true" data-personaje="Sonic">
+    </div>
+
+    <div id="contenedorTails"></div>
+        <div id="contenedorImagenTails">
+            <img id="idImagenTails" src="imagenesSonic/imagenTails.png" draggable="true" data-personaje="Tails">
+    </div>
+
+    <div id="contenedorKnuckles"></div>
+        <div id="contenedorImagenKnuckles">
+            <img id="idImagenKnuckles" src="imagenesSonic/imagenKnuckles.png" draggable="true" data-personaje="Knuckles">
+    </div>
+
+    <div id="contenedorAmy"></div>
+        <div id="contenedorImagenAmy">
+            <img id="idImagenAmy" src="imagenesSonic/imagenAmy.png" draggable="true" data-personaje="Amy">
+    </div>
+
+    <div id="contenedorShadow"></div>
+        <div id="contenedorImagenShadow">
+            <img id="idImagenShadow" src="imagenesSonic/imagenShadow.png" draggable="true" data-personaje="Shadow">
+    </div>
+
+<script>
+        const contenedorSonic = document.querySelector("#contenedorSonic");
+        const idImagenSonic = document.querySelector("#idImagenSonic");
+        
+        const contenedorTails = document.querySelector("#contenedorTails");
+        const idImagenTails = document.querySelector("#idImagenTails");
+        
+        const contenedorKnuckles = document.querySelector("#contenedorKnuckles");
+        const idImagenKnuckles = document.querySelector("#idImagenKnuckles");
+
+        const contenedorAmy= document.querySelector("#contenedorAmy");
+        const idImagenAmy = document.querySelector("#idImagenAmy");
+
+        const contenedorShadow= document.querySelector("#contenedorShadow");
+        const idImagenShadow = document.querySelector("#idImagenShadow");
+
+        var contador = 0; // Declaración de la variable
+        
+        /*---------------*/
+
+        idImagenSonic.addEventListener('dragstart', e => {
+            e.dataTransfer.setData("id", "idImagenSonic");
+        });
+        idImagenSonic.addEventListener('dragend', e => {
+            // Restablecer la posición aquí
+        });
+
+        idImagenTails.addEventListener('dragstart', e => {
+            e.dataTransfer.setData("id", "idImagenTails");
+        });
+        idImagenTails.addEventListener('dragend', e => {
+        });
+
+        idImagenKnuckles.addEventListener('dragstart', e => {
+            e.dataTransfer.setData("id", "idImagenKnuckles");
+        });
+        idImagenKnuckles.addEventListener('dragend', e => {
+        });
+
+        idImagenShadow.addEventListener('dragstart', e => {
+            e.dataTransfer.setData("id", "idImagenShadow");
+        });
+        idImagenShadow.addEventListener('dragend', e => {
+        });
+
+        idImagenAmy.addEventListener('dragstart', e => {
+            e.dataTransfer.setData("id", "idImagenAmy");
+        });
+        idImagenAmy.addEventListener('dragend', e => {
+        });
+
+        contenedorSonic.addEventListener('dragenter', e => {
+            e.preventDefault();
+        });
+
+        contenedorSonic.addEventListener('dragleave', e => {
+        });
+
+        contenedorSonic.addEventListener('dragover', e => {
+            e.preventDefault();
+        });
+
+        contenedorSonic.addEventListener('drop', e => {
+            var parteSonic = e.dataTransfer.getData("id");
+            // Corroboramos que esté ingresando en la posición correcta
+
+            if (parteSonic == 'idImagenSonic') {
+                document.getElementById("idImagenSonic").style.left = "0px";
+                document.getElementById("idImagenSonic").style.top = "0px";
+                contador++;
+                contenedorSonic.appendChild(idImagenSonic);
+
+            }
+            else {
+        alert("Error de personaje.");
+        e.preventDefault();
+        }
+
+        });
+
+        contenedorTails.addEventListener('dragenter', e => {
+            e.preventDefault();
+        });
+
+        contenedorTails.addEventListener('dragleave', e => {
+        });
+
+        contenedorTails.addEventListener('dragover', e => {
+            e.preventDefault();
+        });
+
+        contenedorTails.addEventListener('drop', e => {
+            var parteTails = e.dataTransfer.getData("id");
+            if (parteTails == 'idImagenTails') {
+                document.getElementById("idImagenTails").style.left = "0px";
+                document.getElementById("idImagenTails").style.top = "0px";
+                contador++;
+                contenedorTails.appendChild(idImagenTails);
+
+            }
+            else {
+        alert("Error de personaje.");
+        e.preventDefault();
+        }
+
+        });
+/*-Knuckles*/
+
+        contenedorKnuckles.addEventListener('dragenter', e => {
+            e.preventDefault();
+        });
+
+        contenedorKnuckles.addEventListener('dragleave', e => {
+        });
+
+        contenedorKnuckles.addEventListener('dragover', e => {
+            e.preventDefault();
+        });
+
+        contenedorKnuckles.addEventListener('drop', e => {
+            var parteKnuckles = e.dataTransfer.getData("id");
+            if (parteKnuckles == 'idImagenKnuckles') {
+                document.getElementById("idImagenKnuckles").style.left = "0px";
+                document.getElementById("idImagenKnuckles").style.top = "0px";
+                contador++;
+                contenedorKnuckles.appendChild(idImagenKnuckles);
+
+            }
+            else {
+        alert("Error de personaje.");
+        e.preventDefault();
+        }
+
+        });
+
+/*-Amy*/
+
+        contenedorAmy.addEventListener('dragenter', e => {
+            e.preventDefault();
+        });
+
+        contenedorAmy.addEventListener('dragleave', e => {
+        });
+
+        contenedorAmy.addEventListener('dragover', e => {
+            e.preventDefault();
+        });
+
+        contenedorAmy.addEventListener('drop', e => {
+            var parteAmy = e.dataTransfer.getData("id");
+            if (parteAmy == 'idImagenAmy') {
+                document.getElementById("idImagenAmy").style.left = "0px";
+                document.getElementById("idImagenAmy").style.top = "0px";
+                contador++;
+                contenedorAmy.appendChild(idImagenAmy);
+            }
+            else {
+        alert("Error de personaje.");
+        e.preventDefault();
+        }
+
+        });
+
+        /*-Shadow*/
+
+        contenedorShadow.addEventListener('dragenter', e => {
+            e.preventDefault();
+        });
+
+        contenedorShadow.addEventListener('dragleave', e => {
+        });
+
+        contenedorShadow.addEventListener('dragover', e => {
+            e.preventDefault();
+        });
+
+        contenedorShadow.addEventListener('drop', e => {
+            var parteShadow = e.dataTransfer.getData("id");
+            if (parteShadow == 'idImagenShadow') {
+                document.getElementById("idImagenShadow").style.left = "0px";
+                document.getElementById("idImagenShadow").style.top = "0px";
+                contador++;
+                contenedorShadow.appendChild(idImagenShadow);
+            }
+        else {
+        alert("Error de personaje.");
+        e.preventDefault();
+        }
+
+        if(contador == 5){
+        alert("Felicitaciones. Llenaste todos los personajes de sonic el erizo");
+    }
+        });
+
+
+
+</script>
+
+</body>
+</html>

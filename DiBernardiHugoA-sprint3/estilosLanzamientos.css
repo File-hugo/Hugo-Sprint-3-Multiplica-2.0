@@ -1,0 +1,898 @@
+*{
+    padding:0px;
+    margin:0px;
+
+}
+
+body{
+    background-color: lightskyblue;
+    overflow-x: hidden;
+}
+
+
+/**/
+
+.h2Lanzamientos{
+    font-size:50px;
+    color:brown;
+    bottom:41.5px;
+    position: relative;
+    right:79px;
+}
+
+.h2Lanzamientos:hover{
+    text-decoration: 10px lightblue underline;
+}
+
+#divTituloH1{
+    left:690px;
+    top:50px;
+    position:relative;
+}
+
+.segundaParteLanzamientos{
+    position:relative;
+    bottom:100px;
+    left:0px;
+    color:rgb(255, 141, 2);
+    font-size:50px;
+}
+
+.segundaParteLanzamientos:hover{
+    text-decoration: 10px lightblue underline;
+
+}
+
+.joystickGif2{
+    width:300px;
+    height:300px;
+    position:relative;
+    left:890px;
+    top:250px;
+    
+}
+
+.joystickGif2:hover{
+    border: 5px solid orange;
+}
+/**/
+.juegosDelAño2023{
+    position:relative;
+    top:330px;
+    left:50px;
+    background-color: orange;
+    width:800px;
+    padding:10px;
+    border:5px solid grey;
+    color:black;
+}
+
+.h2JuegosDelAño2023{
+    font-size:23px;
+}
+/**/
+#flexContainer2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#navFlexContainer2 {
+    background-color: rgb(255,255,255, 0.8);
+    position: absolute;
+    width: 99vw;
+    top: 160px;
+    height: 60px;
+    display: flex; /* Para que los elementos internos se alineen horizontalmente */
+    justify-content: space-evenly; /* Alinear elementos al principio, al centro y al final */
+}
+
+
+#navFlexContainer2 ul {
+    list-style: none;
+    padding: 15px;
+}
+
+ul a{
+    text-decoration: none;
+}
+
+#navFlexContainer2 ul a{
+    cursor:pointer;
+
+}
+
+
+#idNoticias, #idMasJugados, #idLanzamientos {
+    display: inline;
+    margin:20px;
+    font-size: 25px;
+}
+
+#idNoticias:hover, #idMasJugados:hover, #idLanzamientos:hover{
+    text-decoration: underline;
+}
+/**/
+
+#pVolverIndex {
+    font-size: 30px;
+    left: 74vw;
+    position: relative;
+    border: 5px solid black;
+    display: inline-block;
+    border-radius: 15px;
+    bottom:250px;
+
+}
+
+#pVolverIndex:hover{
+    background-color: greenyellow;
+}
+
+/**/
+
+#lanzamientotitulo1{
+    font-weight: bold;
+    font-size:19px;
+    position:relative;
+    text-decoration: underline;
+
+}
+
+#sectionLanzamiento1info{
+    background-color: greenyellow;
+    width:850px;
+    bottom:80px;
+    left:10px;
+    height:180px;
+    position:relative;
+    border: 5px solid black;
+}
+
+#idLanzamientotitulo1{
+    bottom:18px;
+    position:relative;
+    font-size:18px;
+}
+
+#lanzamientotitulo2{
+    font-weight: bold;
+    font-size:19px;
+    position:relative;
+    text-decoration: underline;
+
+}
+
+#sectionLanzamiento2info{
+    background-color: lightcyan;
+    width:850px;
+    bottom:90px;
+    left:10px;
+    height:180px;
+    position:relative;
+    border: 5px solid black;
+
+}
+
+#idLanzamientotitulo2{
+    bottom:18px;
+    position:relative;
+    font-size:18px;
+}
+
+#lanzamientotitulo3{
+    font-weight: bold;
+    font-size:19px;
+    position:relative;
+    text-decoration: underline;
+}
+
+#sectionLanzamiento3info{
+    background-color: lightskyblue;
+    width:850px;
+    bottom:100px;
+    left:10px;
+    height:180px;
+    position:relative;
+    border: 5px solid black;
+
+}
+
+#idLanzamientotitulo3{
+    bottom:18px;
+    position:relative;
+    font-size:18px;
+}
+/**/
+
+#divTodasConsolas{
+    font-size:20px;
+    top:40px;
+    position:relative;
+}
+
+#elementos1{
+    border: 5px solid red;
+    background-color: rgb(174, 225, 174);
+    position:relative;
+    height:500px;
+    display:none;
+    top:20px;
+}
+
+#idImagen1{
+    display:none;
+    width:350px;
+    height:350px;
+    top:10px;
+    position:absolute;
+    left:50px;
+}
+
+#pImagen1{
+    font-size:25px;
+    display:none;
+    width:100%;
+    height:350px;
+    top:10px;
+    position:absolute;
+    left:430px;
+}
+
+#segundopImagen1{
+    font-size:20px;
+    display: none;
+    width:100%;
+    height:70%;
+    top:60px;
+    position:absolute;
+    left:450px;
+}
+/*----------*/
+
+#elementos2{
+    border: 5px solid red;
+    background-color: rgb(174, 225, 174);
+    position:relative;
+    height:500px;
+    display:none;
+    top:20px;
+}
+
+#idImagen2{
+    display:none;
+    width:350px;
+    height:350px;
+    top:10px;
+    position:absolute;
+    left:50px;
+
+}
+
+#pImagen2{
+    font-size:25px;
+    display:none;
+    width:100%;
+    height:350px;
+    top:10px;
+    position:absolute;
+    left:430px;
+}
+
+#segundopImagen2{
+    font-size:20px;
+    display: none;
+    width:100%;
+    height:70%;
+    top:60px;
+    position:absolute;
+    left:450px;
+}
+/*--------*/
+
+#elementos3{
+    border: 5px solid red;
+    background-color: rgb(174, 225, 174);
+    position:relative;
+    height:500px;
+    display:none;
+    top:20px;
+}
+
+#idImagen3{
+    display:none;
+    width:350px;
+    height:350px;
+    top:10px;
+    position:absolute;
+    left:50px;
+
+}
+
+#pImagen3{
+    font-size:25px;
+    display:none;
+    width:100%;
+    height:350px;
+    top:10px;
+    position:absolute;
+    left:430px;
+}
+
+#segundopImagen3{
+    font-size:20px;
+    display: none;
+    width:100%;
+    height:70%;
+    top:60px;
+    position:absolute;
+    left:450px;
+}
+
+
+@media (min-width: 401px) and (max-width: 850px) {
+    #navFlexContainer2 {
+        background-color: rgb(255,255,255, 0.9);
+        position: absolute;
+        width: 100vw;
+        top: 110px;
+        height: 105px;
+        display: flex; /* Para que los elementos internos se alineen horizontalmente */
+        justify-content: space-evenly; /* Alinear elementos al principio, al centro y al final */
+    }
+
+    #idNoticias, #idMasJugados, #idLanzamientos {
+        font-size: 24px;
+        margin:10px;
+        width: 95vw;
+
+    }
+
+    .joystickGif2{
+        width:130px;
+        height:130px;
+        position:relative;
+        left:350px;
+        top:310px;
+        
+    }
+
+    .juegosDelAño2023{
+        position:relative;
+        top:50px;
+        left:10px;
+        background-color: orange;
+        width:320px;
+        padding:10px;
+        border:5px solid grey;
+        color:black;
+    }
+
+    .h2JuegosDelAño2023{
+        font-size:19px;
+    }
+
+    #sectionLanzamiento1info{
+        background-color: greenyellow;
+        width:340px;
+        bottom:0px;
+        left:5px;
+        height:410px;
+        position:relative;
+        border: 5px solid black;
+    }
+
+    .segundaParteLanzamientos{
+        font-size:40px;
+        color:brown;
+        bottom:85.5px;
+        right:0px;
+        color:rgb(255, 141, 2);
+    }
+    
+    .h2Lanzamientos{
+        font-size:40px;
+        color:brown;
+        bottom:37px;
+        right:65px;
+    }
+    
+    #divTituloH1{
+        left:330px;
+        top:50px;
+        position:relative;
+    }
+
+    #pVolverIndex {
+        font-size: 25px;
+        left: 55vw;
+        position: relative;
+        border:5px solid black;
+        display: inline-block;
+        border-radius: 15px;
+        bottom:110px;
+    
+    }
+
+    #sectionLanzamiento2info{
+        background-color: lightcyan;
+        width:340px;
+        top:10px;
+        left:4px;
+        height:440px;
+        position:relative;
+        border: 5px solid black;
+    
+    }
+
+    #sectionLanzamiento3info{
+        background-color: lightcyan;
+        width:340px;
+        top:30px;
+        left:4px;
+        height:440px;
+        position:relative;
+        border: 5px solid black;
+    
+    }
+
+    #divTodasConsolas{
+        font-size:20px;
+        top:50px;
+        position:relative;
+    }
+
+    #idImagen1{
+        display:none;
+        width:140px;
+        height:140px;
+        top:10px;
+        position:absolute;
+        left:20px;
+    }
+
+    #pImagen1{
+        font-size:20px;
+        display:none;
+        width:60%;
+        height:350px;
+        top:10px;
+        position:absolute;
+        left:180px;
+    }
+
+    #segundopImagen1{
+        font-size:20px;
+        display: none;
+        width:60%;
+        height:70%;
+        top:80px;
+        position:absolute;
+        left:180px;
+    }
+
+    #elementos3{
+        border: 5px solid red;
+        background-color: rgb(174, 225, 174);
+        position:relative;
+        height:570px;
+        display:none;
+        top:50px;
+    }
+
+    #elementos2{
+        border: 5px solid red;
+        background-color: rgb(174, 225, 174);
+        position:relative;
+        height:560px;
+        display:none;
+        top:50px;
+    }
+
+    #elementos1{
+        border: 5px solid red;
+        background-color: rgb(174, 225, 174);
+        position:relative;
+        height:500px;
+        display:none;
+        top:50px;
+    }
+    
+    
+    #idImagen2{
+        display:none;
+        width:140px;
+        height:140px;
+        top:10px;
+        position:absolute;
+        left:20px;
+    }
+
+    #pImagen2{
+        font-size:20px;
+        display:none;
+        width:60%;
+        height:350px;
+        top:10px;
+        position:absolute;
+        left:180px;
+    }
+
+    #segundopImagen2{
+        font-size:20px;
+        display: none;
+        width:60%;
+        height:70%;
+        top:100px;
+        position:absolute;
+        left:180px;
+    }
+
+    #idImagen3{
+        display:none;
+        width:140px;
+        height:140px;
+        top:10px;
+        position:absolute;
+        left:20px;
+    }
+
+    #pImagen3{
+        font-size:20px;
+        display:none;
+        width:60%;
+        height:350px;
+        top:10px;
+        position:absolute;
+        left:180px;
+    }
+
+    #segundopImagen3{
+        font-size:20px;
+        display: none;
+        width:60%;
+        height:70%;
+        top:100px;
+        position:absolute;
+        left:180px;
+    }
+}
+/**/
+/**/
+
+
+@media (min-width: 852px) and (max-width: 1200px) {
+    #divTodasConsolas{
+        font-size:20px;
+        top:50px;
+        position:relative;
+    }
+
+    #idImagen1{
+        display:none;
+        width:140px;
+        height:140px;
+        top:10px;
+        position:absolute;
+        left:20px;
+    }
+
+    #pImagen1{
+        font-size:20px;
+        display:none;
+        width:60%;
+        height:350px;
+        top:10px;
+        position:absolute;
+        left:180px;
+    }
+
+    #segundopImagen1{
+        font-size:20px;
+        display: none;
+        width:60%;
+        height:70%;
+        top:80px;
+        position:absolute;
+        left:180px;
+    }
+
+    #elementos3{
+        border: 5px solid red;
+        background-color: rgb(174, 225, 174);
+        position:relative;
+        height:400px;
+        display:none;
+        top:50px;
+    }
+
+    #elementos2{
+        border: 5px solid red;
+        background-color: rgb(174, 225, 174);
+        position:relative;
+        height:400px;
+        display:none;
+        top:50px;
+    }
+
+    #elementos1{
+        border: 5px solid red;
+        background-color: rgb(174, 225, 174);
+        position:relative;
+        height:400px;
+        display:none;
+        top:50px;
+    }
+
+    #idImagen2{
+        display:none;
+        width:140px;
+        height:140px;
+        top:10px;
+        position:absolute;
+        left:20px;
+    }
+
+    #pImagen2{
+        font-size:20px;
+        display:none;
+        width:60%;
+        height:350px;
+        top:10px;
+        position:absolute;
+        left:180px;
+    }
+
+    #segundopImagen2{
+        font-size:20px;
+        display: none;
+        width:60%;
+        height:70%;
+        top:100px;
+        position:absolute;
+        left:180px;
+    }
+
+    #idImagen3{
+        display:none;
+        width:140px;
+        height:140px;
+        top:10px;
+        position:absolute;
+        left:20px;
+    }
+
+    #pImagen3{
+        font-size:20px;
+        display:none;
+        width:60%;
+        height:350px;
+        top:10px;
+        position:absolute;
+        left:180px;
+    }
+
+    #segundopImagen3{
+        font-size:20px;
+        display: none;
+        width:60%;
+        height:70%;
+        top:100px;
+        position:absolute;
+        left:180px;
+    }
+    
+    .juegosDelAño2023{
+        position:relative;
+        top:50px;
+        left:10px;
+        background-color: orange;
+        width:520px;
+        padding:10px;
+        border:5px solid grey;
+        color:black;
+    }
+    
+    .h2JuegosDelAño2023{
+        font-size:19px;
+    }
+    
+    #sectionLanzamiento1info{
+        background-color: greenyellow;
+        width:340px;
+        bottom:0px;
+        left:5px;
+        height:410px;
+        position:relative;
+         border: 5px solid black;
+    }
+    
+    .segundaParteLanzamientos{
+        font-size:40px;
+        color:brown;
+        bottom:85.5px;
+        right:0px;
+        color:rgb(255, 141, 2);
+    }
+        
+    .h2Lanzamientos{
+        font-size:40px;
+        color:brown;
+        bottom:37px;
+        right:65px;
+    }
+        
+    #divTituloH1{
+        left:330px;
+        top:50px;
+        position:relative;
+    }
+    
+    #pVolverIndex {
+        font-size: 25px;
+        left: 77vw;
+        position: relative;
+        border:5px solid black;
+        display: inline-block;
+        border-radius: 15px;
+        bottom:190px;
+        
+    }
+    
+    .joystickGif2{
+        width:250px;
+        height:250px;
+        position:relative;
+        left: 68vw;
+        top:250px;
+        
+    }
+
+    #sectionLanzamiento2info{
+        background-color: lightcyan;
+        width:340px;
+        top:10px;
+        left:4px;
+        height:440px;
+        position:relative;
+        border: 5px solid black;
+    }
+    
+    #sectionLanzamiento3info{
+        background-color: lightcyan;
+        width:340px;
+        top:30px;
+        left:4px;
+        height:440px;
+        position:relative;
+        border: 5px solid black;    
+    }
+    
+}
+/**/
+/**/
+
+@media (min-width: 1201px)  {
+    #divTodasConsolas{
+        font-size:20px;
+        top:50px;
+        position:relative;
+    }
+
+    #idImagen1{
+        display:none;
+        width:140px;
+        height:140px;
+        top:10px;
+        position:absolute;
+        left:20px;
+    }
+
+    #pImagen1{
+        font-size:20px;
+        display:none;
+        width:60%;
+        height:350px;
+        top:10px;
+        position:absolute;
+        left:180px;
+    }
+
+    #segundopImagen1{
+        font-size:20px;
+        display: none;
+        width:60%;
+        height:70%;
+        top:80px;
+        position:absolute;
+        left:180px;
+    }
+
+    #elementos3{
+        border: 5px solid red;
+        background-color: rgb(174, 225, 174);
+        position:relative;
+        height:400px;
+        display:none;
+        top:50px;
+        
+    }
+
+    #elementos2{
+        border: 5px solid red;
+        background-color: rgb(174, 225, 174);
+        position:relative;
+        height:400px;
+        display:none;
+        top:50px;
+    }
+
+    #elementos1{
+        border: 5px solid red;
+        background-color: rgb(174, 225, 174);
+        position:relative;
+        height:400px;
+        display:none;
+        top:50px;
+    }
+    
+    
+    #idImagen2{
+        display:none;
+        width:140px;
+        height:140px;
+        top:10px;
+        position:absolute;
+        left:20px;
+    }
+
+    #pImagen2{
+        font-size:20px;
+        display:none;
+        width:60%;
+        height:350px;
+        top:10px;
+        position:absolute;
+        left:180px;
+    }
+
+    #segundopImagen2{
+        font-size:20px;
+        display: none;
+        width:60%;
+        height:70%;
+        top:100px;
+        position:absolute;
+        left:180px;
+    }
+
+    #idImagen3{
+        display:none;
+        width:140px;
+        height:140px;
+        top:10px;
+        position:absolute;
+        left:20px;
+    }
+
+    #pImagen3{
+        font-size:20px;
+        display:none;
+        width:60%;
+        height:350px;
+        top:10px;
+        position:absolute;
+        left:180px;
+    }
+
+    #segundopImagen3{
+        font-size:20px;
+        display: none;
+        width:60%;
+        height:70%;
+        top:100px;
+        position:absolute;
+        left:180px;
+    }
+
+}
+}

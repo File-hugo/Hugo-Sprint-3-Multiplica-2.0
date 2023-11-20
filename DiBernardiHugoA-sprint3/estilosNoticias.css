@@ -1,0 +1,273 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-image: linear-gradient(to right, lightyellow,yellow);
+}
+/**/
+.tituloH1{
+    position:relative;
+    left:400px;
+
+}
+/**/
+#pVolverIndex {
+    font-size: 30px;
+    left: 80vw;
+    position: relative;
+    border: 5px solid black;
+    display: inline-block;
+    border-radius: 15px;
+    top:150px;
+
+}
+
+#pVolverIndex:hover{
+    background-color: greenyellow;
+}
+
+/**/
+#flexContainer2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#navFlexContainer2 {
+    background-color: rgb(255,255,255, 0.8);
+    position: absolute;
+    width: 99vw;
+    top: 70px;
+    height: 60px;
+    display: flex; /*alinea horizontalmente */
+    justify-content: space-evenly; /* Alinear elementos al principio, al centro y al final */
+}
+
+
+#navFlexContainer2 ul {
+    list-style: none;
+    padding: 15px;
+}
+
+ul a{
+    text-decoration: none;
+}
+
+#navFlexContainer2 ul a{
+    cursor:pointer;
+
+}
+
+
+#idNoticias, #idMasJugados, #idLanzamientos {
+    display: inline;
+    margin:20px;
+    font-size: 25px;
+}
+
+/**/
+#sectionNoticiaJuego1{
+    background-color: lightgrey;
+    position:relative;
+    top:200px;
+    width:500px;
+    left:150px;
+}
+
+#noticiaJuego1{
+    font-weight: bold;
+    font-size: 17px;
+    margin-left:210px;
+    position:absolute;
+    top:0px;
+}
+
+#imagenNoticiaJuego1{
+    width:200px;
+    height:200px;
+}
+
+#pJuego1{
+    font-size: 17px;
+    margin-left:210px;
+    position:absolute;
+    top:70px;
+}
+
+/**/
+
+#sectionNoticiaJuego2{
+    background-color: lightgrey;
+    position:relative;
+    bottom:5px;
+    width:500px;
+    left:680px;
+}
+
+#noticiaJuego2{
+    font-weight: bold;
+    font-size: 17px;
+    margin-left:210px;
+    position:absolute;
+    top:0px;
+}
+
+#imagenNoticiaJuego2{
+    width:200px;
+    height:200px;
+}
+
+#pJuego2{
+    font-size: 17px;
+    margin-left:210px;
+    position:absolute;
+    top:70px;
+}
+
+/**/
+
+#sectionNoticiaJuego3{
+    background-color: lightgrey;
+    position:relative;
+    top:10px;
+    width:500px;
+    left:680px;
+}
+
+#noticiaJuego3{
+    font-weight: bold;
+    font-size: 17px;
+    margin-left:210px;
+    position:absolute;
+    top:0px;
+}
+
+#imagenNoticiaJuego3{
+    width:200px;
+    height:200px;
+}
+
+#pJuego3{
+    font-size: 17px;
+    margin-left:210px;
+    position:absolute;
+    top:70px;
+}
+
+/**/
+
+#sectionNoticiaJuego4{
+    background-color: lightgrey;
+    position:relative;
+    bottom:195px;
+    width:500px;
+    left:150px;
+}
+
+#noticiaJuego4{
+    font-weight: bold;
+    font-size: 17px;
+    margin-left:210px;
+    position:absolute;
+    top:0px;
+}
+
+#imagenNoticiaJuego4{
+    width:200px;
+    height:200px;
+}
+
+#pJuego4{
+    font-size: 17px;
+    margin-left:210px;
+    position:absolute;
+    top:70px;
+}
+
+@media (min-width: 401px) and (max-width: 850px) {
+    #navFlexContainer2 {
+        background-color: rgb(255,255,255, 0.8);
+        position: absolute;
+        width: 99vw;
+        top: 70px;
+        height: 90px;
+        display: flex; /*alinea horizontalmente */
+        justify-content: space-evenly; /* Alinear elementos al principio, al centro y al final */
+    }
+
+    .tituloH1{
+        position:relative;
+        left:100px;
+        font-size: 25px;
+    }
+
+    #pVolverIndex {
+        font-size: 27px;
+        left: 55vw;
+        position: relative;
+        border: 5px solid black;
+        display: inline-block;
+        border-radius: 15px;
+        top:150px;
+    
+    }
+
+    #sectionNoticiaJuego1{
+        background-color: lightgrey;
+        position:relative;
+        top:160px;
+        width:500px;
+        left:20px;
+        height:190px;
+    }
+
+    #imagenNoticiaJuego1{
+        width:150px;
+        height:150px;
+    }
+
+    #noticiaJuego1{
+        font-weight: bold;
+        font-size: 17px;
+        margin-left:170px;
+        position:absolute;
+        top:0px;
+        width:260px;
+    }
+    
+    #pJuego1{
+        font-size: 17px;
+        margin-left:170px;
+        position:absolute;
+        top:70px;
+        width:280px;
+    }
+
+    #sectionNoticiaJuego2{
+        background-color: lightgrey;
+        position:relative;
+        top:190px;
+        width:500px;
+        left:20px;
+        height:190px;
+    }
+
+    #sectionNoticiaJuego3{
+        background-color: lightgrey;
+        position:relative;
+        top:220px;
+        width:500px;
+        left:20px;
+        height:190px;
+    }
+
+    #sectionNoticiaJuego4{
+        background-color: lightgrey;
+        position:relative;
+        top:240px;
+        width:500px;
+        left:20px;
+        height:210px;
+    }
+
+}

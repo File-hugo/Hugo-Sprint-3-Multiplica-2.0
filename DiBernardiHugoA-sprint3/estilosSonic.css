@@ -1,0 +1,854 @@
+/*Primero arreglo el contenedor y despues el personaje*/
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    background-color: aliceblue;
+}
+/**/
+.pVolverIndex {
+    font-size: 30px;
+    left: 80vw;
+    position: relative;
+    border: 5px solid black;
+    display: inline-block;
+    border-radius: 15px;
+    top:150px;
+
+}
+
+.pVolverIndex:hover{
+    background-color: greenyellow;
+}
+
+/**/
+.tituloH1{
+    position:relative;
+    left:400px;
+    top:20px;
+    
+}
+
+.tituloH1:hover{
+    text-decoration: underline;
+}
+/**/
+
+#flexContainer2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#navFlexContainer2 {
+    background-color: rgb(255,255,255, 0.8);
+    position: absolute;
+    width: 99vw;
+    top: 120px;
+    height: 60px;
+    display: flex; /* Para que los elementos internos se alineen horizontalmente */
+    justify-content: space-evenly; /* Alinear elementos al principio, al centro y al final */
+}
+
+
+#navFlexContainer2 ul {
+    list-style: none;
+    padding: 15px;
+}
+
+ul a{
+    text-decoration: none;
+}
+
+#navFlexContainer2 ul a{
+    cursor:pointer;
+
+}
+
+
+#idNoticias, #idMasJugados, #idLanzamientos {
+    display: inline;
+    margin:20px;
+    font-size: 25px;
+}
+/**/
+#idSonicLogo{
+    left:400px;
+    position: absolute;
+    top:720px;
+}
+
+/*---------*/
+#pSonic{
+    left:350px;
+    position:absolute;
+    top:280px;
+    font-size:30px;
+}
+
+#pTails{
+    left:950px;
+    position:absolute;
+    top:280px;
+    font-size:30px;
+}
+
+#pKnuckles{
+    left:120px;
+    position:absolute;
+    top:280px;
+    font-size:30px;
+}
+
+#pShadow{
+    left:730px;
+    position:absolute;
+    top:280px;
+    font-size:30px;
+}
+#pAmy{
+    left:560px;
+    position:absolute;
+    top:280px;
+    font-size:30px;
+}
+
+/*--------------*/
+
+#idImagenSonic {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 500px;
+    left: 400px;
+    
+}
+
+#idImagenTails {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 500px;
+    left: 580px;
+}
+
+#idImagenKnuckles {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 500px;
+    left: 740px;
+}
+
+#idImagenShadow {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 500px;
+    left: 240px;
+}
+#idImagenAmy {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 500px;
+    left: 80px;
+}
+
+/*----------*/
+
+#contenedorSonic {
+    width: 150px;
+    height: 150px;
+    border: 5px solid red;
+    position: absolute;
+    top: 320px;
+    left: 300px;
+}
+
+#contenedorTails {
+    width: 150px;
+    height: 150px;
+    border: 5px solid red;
+    position: absolute;
+    left: 890px;
+    bottom: 70px;
+
+}
+
+#contenedorKnuckles {
+    width: 150px;
+    height: 150px;
+    border: 5px solid red;
+    position: absolute;
+    top: 320px;
+    left: 90px;
+}
+
+#contenedorShadow {
+    width: 150px;
+    height: 150px;
+    border: 5px solid red;
+    position: absolute;
+    bottom: 70px;
+    left: 700px;
+}
+#contenedorAmy {
+    width: 150px;
+    height: 150px;
+    border: 5px solid red;
+    position: absolute;
+    bottom: 70px;
+    left: 500px;
+}
+
+/*----------------*/
+@media (max-width: 600px) {
+    .tituloH1{
+        position:relative;
+        left:100px;
+        top:30px;
+        
+    }
+
+    #navFlexContainer2 {
+        background-color: rgb(255,255,255, 0.8);
+        position: absolute;
+        width: 99vw;
+        top: 120px;
+        height: 80px;
+        display: flex; 
+        justify-content: space-evenly; 
+    }
+    
+    .pVolverIndex {
+        font-size: 25px;
+        left: 60vw;
+        position: relative;
+        border: 5px solid black;
+        display: inline-block;
+        border-radius: 15px;
+        top:170px;
+    }
+
+    #idSonicLogo{
+        left:50px;
+        position: absolute;
+        top:720px;
+        width:150px;
+        height:100px;
+    }
+
+    #idImagenSonic {
+        width: 90px;
+        height: 90px;
+        position:absolute;
+        top: 220px;
+        left:20px;
+    }
+
+    #idImagenTails {
+        width: 90px;
+        height: 90px;
+        position:absolute;
+        top: 330px;
+        left:30px;
+    }
+
+    #idImagenKnuckles {
+        width: 90px;
+        height: 90px;
+        position:absolute;
+        top: 430px;
+        left:20px;
+    }
+
+    #idImagenShadow {
+        width: 90px;
+        height: 90px;
+        position:absolute;
+        top: 550px;
+        left:150px;
+    }
+
+    #idImagenAmy {
+        width: 90px;
+        height: 90px;
+        position:absolute;
+        top: 530px;
+        left:20px;
+    }
+
+    #contenedorSonic {
+        width: 90px;
+        height: 90px;
+        border: 5px solid red;
+        position: absolute;
+        top: 250px;
+        left: 140px;
+    }
+
+    #contenedorTails {
+        width: 90px;
+        height: 90px;
+        border: 5px solid red;
+        position: absolute;
+        top: 300px;
+        left: 270px;
+    }
+
+    #contenedorKnuckles {
+        width: 90px;
+        height: 90px;
+        border: 5px solid red;
+        position: absolute;
+        top: 470px;
+        left: 270px;
+    }
+
+    #contenedorAmy {
+        width: 90px;
+        height: 90px;
+        border: 5px solid red;
+        position: absolute;
+        top: 440px;
+        left: 140px;
+    }
+
+    #contenedorShadow {
+        width: 90px;
+        height: 90px;
+        border: 5px solid red;
+        position: absolute;
+        top: 630px;
+        left: 270px;
+    }
+
+    #pSonic{
+        left:160px;
+        position:absolute;
+        top:200px;
+        font-size:25px;
+    }
+
+    #pTails{
+        left:290px;
+        position:absolute;
+        top:260px;
+        font-size:25px;
+}
+
+    #pKnuckles{
+        left:280px;
+        position:absolute;
+        top:420px;
+        font-size:25px;
+    }
+
+#pAmy{
+    left:160px;
+    position:absolute;
+    top:400px;
+    font-size:25px;
+    }
+
+    #pShadow{
+    left:280px;
+    position:absolute;
+    top:590px;
+    font-size:25px;
+}
+}
+
+/**/
+
+@media (min-width: 601px) and (max-width: 850px) {
+    .tituloH1{
+        position:relative;
+        left:200px;
+        top:30px;
+        
+    }
+    .pVolverIndex {
+        font-size: 25px;
+        left: 60vw;
+        position: relative;
+        border: 5px solid black;
+        display: inline-block;
+        border-radius: 15px;
+        top:170px;
+    }
+
+    #idSonicLogo{
+        left:50px;
+        position: absolute;
+        top:720px;
+        width:150px;
+        height:100px;
+    }
+
+    #idImagenSonic {
+        width: 90px;
+        height: 90px;
+        position:absolute;
+        top: 220px;
+        left:20px;
+    }
+
+    #idImagenTails {
+        width: 90px;
+        height: 90px;
+        position:absolute;
+        top: 330px;
+        left:30px;
+    }
+
+    #idImagenKnuckles {
+        width: 90px;
+        height: 90px;
+        position:absolute;
+        top: 430px;
+        left:20px;
+    }
+
+    #idImagenShadow {
+        width: 90px;
+        height: 90px;
+        position:absolute;
+        top: 550px;
+        left:150px;
+    }
+
+    #idImagenAmy {
+        width: 90px;
+        height: 90px;
+        position:absolute;
+        top: 530px;
+        left:20px;
+    }
+
+    #contenedorSonic {
+        width: 90px;
+        height: 90px;
+        border: 5px solid red;
+        position: absolute;
+        top: 250px;
+        left: 140px;
+    }
+
+    #contenedorTails {
+        width: 90px;
+        height: 90px;
+        border: 5px solid red;
+        position: absolute;
+        top: 300px;
+        left: 270px;
+    }
+
+    #contenedorKnuckles {
+        width: 90px;
+        height: 90px;
+        border: 5px solid red;
+        position: absolute;
+        top: 470px;
+        left: 270px;
+    }
+
+    #contenedorAmy {
+        width: 90px;
+        height: 90px;
+        border: 5px solid red;
+        position: absolute;
+        top: 440px;
+        left: 140px;
+    }
+
+    #contenedorShadow {
+        width: 90px;
+        height: 90px;
+        border: 5px solid red;
+        position: absolute;
+        top: 630px;
+        left: 270px;
+    }
+
+    #pSonic{
+        left:160px;
+        position:absolute;
+        top:200px;
+        font-size:25px;
+    }
+
+    #pTails{
+        left:290px;
+        position:absolute;
+        top:260px;
+        font-size:25px;
+}
+
+    #pKnuckles{
+        left:280px;
+        position:absolute;
+        top:420px;
+        font-size:25px;
+    }
+
+    #pAmy{
+    left:160px;
+    position:absolute;
+    top:400px;
+    font-size:25px;
+    }
+
+    #pShadow{
+    left:280px;
+    position:absolute;
+    top:590px;
+    font-size:25px;
+}
+}
+
+/**/
+/**/
+@media (min-width: 852px) and (max-width: 1200px) {
+    .tituloH1{
+        position:relative;
+        left:470px;
+        top:30px;
+        
+    }
+    .pVolverIndex {
+        font-size: 29px;
+        left: 75vw;
+        position: relative;
+        border: 5px solid black;
+        display: inline-block;
+        border-radius: 15px;
+        top:170px;
+    }
+
+    #idSonicLogo{
+        left:50px;
+        position: absolute;
+        top:720px;
+        width:150px;
+        height:100px;
+    }
+
+    #idImagenSonic {
+        width: 120px;
+        height: 120px;
+        position:absolute;
+        top: 220px;
+        left:20px;
+    }
+
+    #idImagenTails {
+        width: 120px;
+        height: 120px;
+        position:absolute;
+        top: 360px;
+        left: 30px;
+    }
+
+    #idImagenKnuckles {
+        width: 120px;
+        height: 120px;
+        position:absolute;
+        top: 500px;
+        left:20px;
+    }
+
+    #idImagenShadow {
+        width: 120px;
+        height: 120px;
+        position:absolute;
+        top: 280px;
+        left:530px;
+    }
+
+    #idImagenAmy {
+        width: 120px;
+        height: 120px;
+        position:absolute;
+        top: 450px;
+        left: 520px;
+    }
+
+    #contenedorSonic {
+        width: 120px;
+        height: 120px;
+        border: 5px solid red;
+        position: absolute;
+        top: 250px;
+        left: 190px;
+    }
+
+    #contenedorTails {
+        width: 120px;
+        height: 120px;
+        border: 5px solid red;
+        position: absolute;
+        top: 250px;
+        left: 370px;
+    }
+
+    #contenedorKnuckles {
+        width: 120px;
+        height: 120px;
+        border: 5px solid red;
+        position: absolute;
+        top: 470px;
+        left: 370px;
+    }
+
+    #contenedorAmy {
+        width: 120px;
+        height: 120px;
+        border: 5px solid red;
+        position: absolute;
+        top: 470px;
+        left: 190px;
+    }
+
+    #contenedorShadow {
+        width: 120px;
+        height: 120px;
+        border: 5px solid red;
+        position: absolute;
+        top: 350px;
+        left: 690px;
+    }
+
+    #pSonic{
+        left:230px;
+        position:absolute;
+        top:200px;
+        font-size:25px;
+    }
+
+    #pTails{
+        left:400px;
+        position:absolute;
+        top:200px;
+        font-size:25px;
+}
+
+    #pKnuckles{
+        left:390px;
+        position:absolute;
+        top:420px;
+        font-size:25px;
+    }
+
+    #pAmy{
+        left:230px;
+        position:absolute;
+        top:420px;
+        font-size:25px;
+    }
+
+    #pShadow{
+        left:710px;
+        position:absolute;
+        top:300px;
+        font-size:25px;
+}
+}
+
+
+/**/
+
+
+@media (min-width: 1201px)  {
+    .pVolverIndex {
+        font-size: 30px;
+        left: 80vw;
+        position: relative;
+        border: 5px solid black;
+        display: inline-block;
+        border-radius: 15px;
+        top:150px;
+    
+    }
+    
+    .pVolverIndex:hover{
+        background-color: greenyellow;
+    }
+    
+    .tituloH1{
+        position:relative;
+        left:520px;
+        top:20px;
+        
+    }
+    
+    .tituloH1:hover{
+        text-decoration: underline;
+    }
+    
+    #flexContainer2 {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #navFlexContainer2 {
+        background-color: rgb(255,255,255, 0.8);
+        position: absolute;
+        width: 99vw;
+        top: 120px;
+        height: 60px;
+        display: flex; /* Para que los elementos internos se alineen horizontalmente */
+        justify-content: space-evenly; /* Alinear elementos al principio, al centro y al final */
+    }
+    
+    
+    #navFlexContainer2 ul {
+        list-style: none;
+        padding: 15px;
+    }
+    
+    ul a{
+        text-decoration: none;
+    }
+    
+    #navFlexContainer2 ul a{
+        cursor:pointer;
+    
+    }
+    
+    
+    #idNoticias, #idMasJugados, #idLanzamientos {
+        display: inline;
+        margin:20px;
+        font-size: 25px;
+    }
+    #idSonicLogo{
+        left:400px;
+        position: absolute;
+        top:720px;
+    }
+    
+    #pSonic{
+        left:150px;
+        position:absolute;
+        top:280px;
+        font-size:30px;
+    }
+    
+    #pTails{
+        left:940px;
+        position:absolute;
+        top:280px;
+        font-size:30px;
+    }
+    
+    #pKnuckles{
+        left:320px;
+        position:absolute;
+        top:280px;
+        font-size:30px;
+    }
+    
+    #pShadow{
+        left:730px;
+        position:absolute;
+        top:275px;
+        font-size:30px;
+    }
+    #pAmy{
+        left:560px;
+        position:absolute;
+        top:275px;
+        font-size:30px;
+    }
+    
+    
+    #idImagenSonic {
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        top: 500px;
+        left: 400px;
+        
+    }
+    
+    #idImagenTails {
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        top: 500px;
+        left: 580px;
+    }
+    
+    #idImagenKnuckles {
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        top: 500px;
+        left: 740px;
+    }
+    
+    #idImagenShadow {
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        top: 500px;
+        left: 240px;
+    }
+    #idImagenAmy {
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        top: 500px;
+        left: 80px;
+    }
+    
+    
+    #contenedorSonic {
+        width: 150px;
+        height: 150px;
+        border: 5px solid red;
+        position: absolute;
+        top: 320px;
+        left: 100px;
+    }
+    
+    #contenedorTails {
+        width: 150px;
+        height: 150px;
+        border: 5px solid red;
+        position: absolute;
+        left: 890px;
+        bottom: 60px;
+    
+    }
+    
+    #contenedorKnuckles {
+        width: 150px;
+        height: 150px;
+        border: 5px solid red;
+        position: absolute;
+        top: 320px;
+        left: 290px;
+    }
+    
+    #contenedorShadow {
+        width: 150px;
+        height: 150px;
+        border: 5px solid red;
+        position: absolute;
+        bottom: 60px;
+        left: 700px;
+    }
+    #contenedorAmy {
+        width: 150px;
+        height: 150px;
+        border: 5px solid red;
+        position: absolute;
+        bottom: 60px;
+        left: 500px;
+    }
+}    
