@@ -22,7 +22,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Setup Ruby
-        uses: actions/setup-ruby@v1
+        uses: ruby/setup-ruby@v2
         with:
           ruby-version: 2.x # o la versión de Ruby que estás utilizando en tu proyecto
       - name: Install Bundler
